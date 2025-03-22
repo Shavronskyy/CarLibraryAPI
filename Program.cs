@@ -1,3 +1,5 @@
+using CarLibrary_DAL.Database;
+using Microsoft.EntityFrameworkCore;
 
 namespace CarLibraryAPI
 {
@@ -8,6 +10,10 @@ namespace CarLibraryAPI
             var builder = WebApplication.CreateBuilder(args);
 
             // Add services to the container.
+
+            builder.Configuration.AddUserSecrets<Program>();
+            builder.Services.AddDbContext<CarLibraryDbContext>(options =>
+            options.UseSqlServer(builder.Configuration["ConnectionStrings:DefaultConnection"]));
 
             builder.Services.AddControllers();
             // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
