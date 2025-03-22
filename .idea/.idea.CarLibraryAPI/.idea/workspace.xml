@@ -9,7 +9,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4c1ad865-7535-4b4a-bc57-7d6dfb24c577" name="Changes" comment="" />
+    <list default="true" id="4c1ad865-7535-4b4a-bc57-7d6dfb24c577" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/Models/Adverstiments/Adverstiment.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Models/Adverstiments/Car.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.CarLibraryAPI/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.CarLibraryAPI/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -23,21 +27,21 @@
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "Shavronskyy"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;Shavronskyy&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/Shavronskyy/CarLibraryAPI.git",
-    "accountId": "f04ac117-0d39-478e-9733-cee66fe0b99e"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/Shavronskyy/CarLibraryAPI.git&quot;,
+    &quot;accountId&quot;: &quot;f04ac117-0d39-478e-9733-cee66fe0b99e&quot;
   }
-}]]></component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 2
-}]]></component>
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 2
+}</component>
   <component name="ProjectId" id="2ugHAS4W0FosUX1s6b82ICEm9hH" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -47,6 +51,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "1-implement-advertisement-instance",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -118,6 +123,7 @@
       <option name="presentableId" value="Default" />
       <updated>1742663154039</updated>
       <workItem from="1742663155476" duration="428000" />
+      <workItem from="1742663595700" duration="299000" />
     </task>
     <servers />
   </component>
